@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: hsl(0, 0%, 98%);
+    line-height: 1.7;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 50px 30px;
+}
+p {
+    margin: 0;
+}
+header{
+    text-align: center;
+}
+header h2{
+    margin-top: 10px;
+    font-weight: 200;
+    color:  hsl(229, 6%, 66%);
+    
+}
+header h3{
+    
+    font-weight: 600;
+    color:  hsl(234, 12%, 34%);
+}
+header p{
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 15px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+   grid-template-columns: repeat(3, 25%);
+   column-gap: 30px;
+}
+.Team-Karma{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+.card{
+    border-radius: 7px;
+    padding: 15px;
+    background-color: white;
+}
+.card p{
+    font-size: 15px;
+    opacity: 50%;
+   
+}
+.card-1{
+    border-top: 3px solid hsl(180, 62%, 55%);
+    align-self: center;
+}
+.card-2{
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+.card-3{
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+.card-4{
+    border-top: 3px solid hsl(212, 86%, 64%);
+    align-self: center;
+}
+.card img{
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+}
+
+@media(max-width:768px){
+    .main{
+        grid-template-columns: 1fr;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 20px;
+        gap: 30px;
+        justify-content: center;
+    }
+}
