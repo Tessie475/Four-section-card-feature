@@ -20,13 +20,14 @@ header{
     text-align: center;
 }
 header h2{
+    font-size: 34px;
     margin-top: 10px;
     font-weight: 200;
     color:  hsl(229, 6%, 66%);
     
 }
 header h3{
-    
+    font-size: 34px;
     font-weight: 600;
     color:  hsl(234, 12%, 34%);
 }
